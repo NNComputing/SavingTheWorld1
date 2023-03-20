@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">  
+    <title>Saving the World 1</title>
+    <link rel="stylesheet" href="../static/style.css">
+
+  </head>
+<body>
+    <form method='post'>
+    <h1>Teachers' Homework Designator</h1>
+
+    <table border="1">
+        <tr>
+            <td>Choose a class:</td>
+            <td><select name="class" id="class">
+                    <option value="24/11">24/11</option>
+                    <option value="24/12">24/12</option>
+                    <option value="24/13">24/13</option>
+                    <option value="24/14">24/14</option>
+                  </select></td>
+            <td><label for="Duedate">Due date:</label></td>
+            <td><input type="date" id="Duedate" name="Duedate"></td>
+        </tr>
+        <tr>
+            <td>Homework</td>
+            <td colspan="3"><textarea id="homework" name="homework" rows="4" cols="50"></textarea></td>
+        </tr>
+    </table>
+    <p>
+    <input type="submit">          
+    
+    <input type="reset">
+    </p>
+</form>
+</body>
+</html>
